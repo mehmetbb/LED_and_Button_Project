@@ -31,7 +31,7 @@ while(1){
 		GPIO_SetBits(GPIOC,GPIO_Pin_9);		 // Green LED on
 		GPIO_ResetBits(GPIOC,GPIO_Pin_8);	 // Blue LED off
 	}
-	else {																				   // If the button is not pressed
+	else {						 // If the button is not pressed
 		GPIO_SetBits(GPIOC,GPIO_Pin_8);		 // Blue LED on
 		GPIO_ResetBits(GPIOC,GPIO_Pin_9);	 // Green LED off
 	}
